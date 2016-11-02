@@ -21,6 +21,11 @@ header .text{
 	margin-right: 200px;
 }
 
+header .weixin_scanner {
+	float: right;
+	margin-right: 200px;
+}
+
 .text .weixinIcon,.weiboIcon {
 	width: 20px;
 	height: 20px;
