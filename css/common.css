@@ -20,6 +20,12 @@ header .text{
 	float: right;
 	margin-right: 200px;
 }
+
+.text .weixinIcon,.weiboIcon {
+	width: 20px;
+	height: 20px;
+	margin-top: 3px;
+}
 /*导航*/
 .bananer{
 	position: relative;
