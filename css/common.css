@@ -1,0 +1,404 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: "微软雅黑";
+}
+/*header*/
+.logo{
+	background: url(../images/head_logo.png) no-repeat center top;
+	height: 97px;
+}
+.logo p{
+	display: inline;
+	font-size: small;
+	cursor: pointer;
+}
+.logo p:hover{
+	text-decoration: underline;
+}
+header .text{
+	float: right;
+	margin-right: 200px;
+}
+/*导航*/
+.bananer{
+	position: relative;
+}
+.row{
+	position: absolute;
+	height: 40px;
+	width: 1008px;
+	margin: 0 auto;
+	z-index: 2;
+	left: 50%;
+	margin-left:-504px;
+}
+.nav{
+	float: left;
+	width: 808px;
+	height: 40px;
+	list-style-type: none;
+}
+.nav li{
+	float: left;
+	height: 40px;
+	width: 100px;
+	color: white;
+	border-right: groove 1px white;
+	background: black;
+	line-height: 40px;
+	text-align: center;
+	cursor: pointer;
+	font-size: 14px;
+	
+}
+.nav li:hover{
+	background: #00ADA7;
+}
+.current li{
+	background: #00ADA7;
+}
+.row form{
+	float: left;
+	height: 40px;
+	width: 200px;
+	background: url(../images/search.jpg) -10px;
+}
+#text{
+	float: left;
+	height: 40px;
+	width: 150px;
+	border: none;
+}
+#search{
+	float: left;
+	height: 40px;
+	width: 40px;
+	opacity: 0;
+}
+/*轮播图*/
+.slider{
+	position: relative;
+	overflow: hidden;
+	z-index: 0;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+.slider ul{
+	list-style-type: none;
+}
+.slider img{
+	width: 100%;
+}
+/*圆形图片组*/
+.picWall{
+	background: ghostwhite;
+	box-shadow: 0 2px 4px 4px #F0F0F0;
+	margin-top: -35px;
+	height: 260px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	
+}
+.btnGroup{
+	position: relative;
+	background: url(../images/xc_pic.jpg) no-repeat;
+	height: 230px;
+	margin: 20px auto;
+	width: 1000px;
+	overflow: hidden;
+}
+.btnGroup ul{
+	position: absolute;
+	list-style-type: none;
+	width: 1000px;
+	height: 230px;
+	background: black;
+	opacity: 0.6;
+	top:-230px;
+	
+}
+.btnGroup:hover ul{
+	transform: translateY(230px);
+	transition: all 0.4s ease-in;
+}
+.btnGroup ul li{
+	float: left;
+	height: 230px;
+	margin: 50px 55px;
+}
+.btnGroup ul li:hover{
+	transform: scale(1.2);
+	transition: all 0.4s ease-in; 
+}
+/*装修效果图*/
+.effect{
+	width: 1000px;
+	margin: 0 auto;
+	clear: both;
+	height: 620px;
+}
+.picGroup{
+	float: left;
+	width: 700px;
+}
+.t1{
+	height: 40px;
+	background: url(../images/t_line.jpg) no-repeat 0 center;
+	padding-left: 20px;
+	line-height: 40px;
+}
+.picGroup .line1{
+	position: relative;
+	height: 245px;
+}
+.picGroup .line1 .pic1{
+	position: absolute;
+	height: 245px;
+	width: 345px;
+	top: 0;
+	left: 0;
+}
+.picGroup .line1 .pic1 a{
+	position: absolute;
+	height: 245px;
+	width: 345px;
+	background: url(../images/1.jpg);
+}
+.picGroup .line1 .pic1 p{
+	position: absolute;
+	height: 30px;
+	width: 345px;
+	background: #000000;
+	opacity: 0.6;
+	bottom: 0;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+}
+.picGroup .line1 .pic2{
+	float: right;
+	position: absolute;
+	height: 120px;
+	width: 345px;
+	top: 0;
+	right: 0;
+}
+.picGroup .line1 .pic2 a{
+	position: absolute;
+	height: 120px;
+	width: 345px;
+	background: url(../images/2.jpg);
+}
+.picGroup .line1 .pic2 p{
+	position: absolute;
+	height: 30px;
+	line-height: 30px;
+	width: 345px;
+	bottom: 0;
+	background: black;
+	opacity: 0.6;
+	color: white;
+	text-align: center;
+}
+.picGroup .line1 .pic3{
+	position: absolute;
+	bottom: 0;
+	right: 175px;
+	height: 115px;
+	width: 170px;	
+}
+.picGroup .line1 .pic3 a{
+	position: absolute;
+	background: url(../images/3.jpg) no-repeat;
+	height: 115px;
+	width: 170px;
+}
+.picGroup .line1 .pic3 p{
+	position: absolute;
+	height: 30px;
+	line-height: 30px;
+	width: 170px;
+	background: black;
+	opacity: 0.6;
+	text-align: center;
+	bottom: 0;
+	color: white;
+}
+.picGroup .line1 .pic4{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 115px;
+	width: 170px;
+}
+.picGroup .line1 .pic4 a{
+	position: absolute;
+	background: url(../images/4.jpg) no-repeat;
+	height: 115px;
+	width: 170px;
+}
+.picGroup .line1 .pic4 p{
+	position: absolute;
+	bottom: 0;
+	height: 30px;
+	line-height: 30px;
+	background: black;
+	opacity: 0.6;
+	text-align: center;
+	width: 170px;
+	color: white;
+}
+.picGroup .line1 a:hover p{
+	color: #00ADA7;
+}
+.picGroup .line2 img{
+	height: 195px;
+	width: 700px;
+	margin-top: 10px;
+}
+.picGroup .line3 ul{
+	display: flex;
+	list-style-type: none;
+	justify-content: space-between;
+	margin-top: 10px;
+}
+.picGroup .line3 ul li{
+	height: 80px;
+	width: 60px;
+}
+.line3 ul li:hover p{
+	color: #00ADA7;
+}
+.picGroup .line3 ul img{
+	height: 60px;
+	width: 60px;
+}
+.picGroup .line3 ul p{
+	text-align: center;
+	height: 20px;
+	line-height: 20px;
+}
+.case{
+	float: right;
+	height: 578px;
+	width: 270px;
+}
+.case .t2{
+	height: 40px;
+	background: url(../images/t_line.jpg) no-repeat 0 center;
+	padding-left: 20px;
+	line-height: 40px;
+}
+.case ul{
+	height: 120px;
+	width: 270px;
+	list-style-type: none;
+}
+.case ul li{
+	width: 135px;
+	float: left;
+	margin-bottom: 10px;
+}
+.case ul li a{
+	background: url(../images/linkImg.png) 0 4px no-repeat;
+	text-decoration: none;
+	padding-left: 15px;
+	color: black;
+}
+.case ul li a:hover{
+	background: url(../images/linkImg.png) 0 -18px no-repeat;
+	color: red;
+}
+.case .text{
+	
+	clear: both;
+	font-size: 0.8em;
+	text-align: left;
+	line-height: 40px;
+}
+.case .video img{
+	height: 180px;
+}
+/*精英团队*/
+.team{
+	clear: both;
+	background: ghostwhite;
+	box-shadow: inset 0 4px 5px 5px #F0F0F0;
+}
+.row2{
+	width: 1000px;
+	margin: 0 auto;
+}
+.row2 .t3{
+	height: 40px;
+	background: url(../images/t_line.jpg) no-repeat 0 center;
+	padding-left: 20px;
+	line-height: 40px;
+}
+.team .bd{
+	width: 1000px;
+	height: 206px;
+	overflow: hidden;
+}
+.team ul{
+	position: relative;
+	list-style-type: none;
+	overflow: hidden;
+}
+.team ul li{
+	position: relative;
+	float: left;
+	width: 186px;
+	height: 186px;
+	margin-right: 10px;
+	overflow: hidden;
+}
+.team ul li img{
+	width: 186px;
+	height: 186px;
+
+}
+.team ul li p{
+	position: absolute;
+	bottom: 0;
+	text-align: center;
+	text-decoration: none;
+	color: white;
+	width: 186px;
+	background: black;
+	opacity: 0.6;
+	bottom: -21px;
+}
+.team ul li:hover p{
+	bottom: 0;
+	transition: bottom 0.2s;
+}
+/*页脚*/
+footer{
+	background: url(../images/footbg.jpg) repeat;
+	height: 100px;
+}
+.block{
+	width: 1000px;
+	margin: 0 auto;
+}
+.fleft{
+	float: left;
+}
+.fright{
+	float: right;
+}
+footer p{
+	color: #00ADA7;
+	margin: 10px;
+	font-size: 12px;
+}
+footer a{
+	color: #00ADA7;
+	text-decoration: none;
+}
+footer a:hover{
+	text-decoration: underline;
+}
