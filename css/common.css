@@ -63,6 +63,10 @@ header .weixin_scanner {
 	font-size: 14px;
 	
 }
+.nav li a {
+	text-decoration: none;
+	color: white;
+}
 .nav li:hover{
 	background: #00ADA7;
 }
@@ -101,6 +105,27 @@ header .weixin_scanner {
 }
 .slider img{
 	width: 100%;
+}
+
+.companyProfile {
+	width: 808px;
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+
+.companyProfile h3 {
+	margin: 10px;
+}
+
+.companyProfile p {
+	margin: 10px;
+	text-indent:30px;
+}
+
+.advantage {
+	margin: 10px;
+	padding-left: 50px;
 }
 /*圆形图片组*/
 .picWall{
